@@ -1,0 +1,2 @@
+class InstallProcess:
+    pass
