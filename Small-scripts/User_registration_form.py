@@ -14,6 +14,7 @@ def validator():
 
         if win.le_password.text() != win.le_password_2.text():
             win.lbl_error.setText("Passwords don't match!")
+            win.pb_registration.setEnabled(False)
         else:
             win.lbl_error.setText("")
             win.pb_registration.setEnabled(True)
